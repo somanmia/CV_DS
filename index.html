@@ -12,6 +12,9 @@
 		<title>somanmia</title>
 	</head>
 	<body>
+<body onload="logindfun()">
+
+    <div id="loadding"></div>
 		  <!----HEADER--->
 			<section id="main-nav">
             <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark ">
@@ -547,6 +550,12 @@
 				 </div>
 			</div>
 	</section>
+					  <script>
+    var preloder=document.getElementById("loadding");
+    function logindfun(){
+        preloder.style.display='none';
+    }
+</script>
 			<!---- Javascript Links------>
 			<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
